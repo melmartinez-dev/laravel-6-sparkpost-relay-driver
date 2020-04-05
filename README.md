@@ -52,7 +52,7 @@ You are able to specify [Guzzle options](http://docs.guzzlephp.org/en/stable/req
 ],
 ```
 
-Added and option for relaying servers, inthe options key:
+Added and option for relaying servers, in the options key:
 ```php
   'options' => [
         'relay'=>env('RELAY_SERVER'),
