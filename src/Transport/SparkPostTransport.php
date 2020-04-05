@@ -151,7 +151,7 @@ class SparkPostTransport extends Transport
      */
     public function getEndpoint()
     {
-        return $this->getOptions()['relay']??(($this->getOptions()['endpoint'] ?? 'https://api.sparkpost.com/api/v1').'/transmissions');
+        return $this->getOptions()['relay']??'https://api.sparkpost.com/api/v1/transmissions');
     }
 
     /**
