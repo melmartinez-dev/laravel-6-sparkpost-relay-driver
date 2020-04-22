@@ -13,8 +13,8 @@ Find the correct version to use in the table below:
 
 | Laravel version | Version |
 | :---: | :---: |
-| 6.x | 2.x |
-| 7.x | 3.x |
+| 6.x | 1.x |
+| 7.x | 2.x |
 
 ## Installation
 
