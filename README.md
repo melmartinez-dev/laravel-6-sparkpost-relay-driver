@@ -7,6 +7,15 @@ This package allows you to still use SparkPost as MailDriver in Laravel 6.x
 
 This package is inspired by: https://github.com/vemcogroup/laravel-sparkpost-driver
 
+## Version
+
+Find the correct version to use in the table below:
+
+| Laravel version | Version |
+| :---: | :---: |
+| 6.x | 2.x |
+| 7.x | 3.x |
+
 ## Installation
 
 You can install the package via composer:
@@ -81,3 +90,19 @@ Or by setting the environment variable `MAIL_DRIVER` in your `.env` file
 ```php
 MAIL_DRIVER=sparkpost
 ```
+```
+
+**Laravel 7**
+
+If you are using a clean Laravel 7.x installation its important you add the following sparkpost config in `config/mail.php` mailer section.
+
+```php
+'mailers' => [
+    ...
+    'sparkpost' => [
+        'transport' => 'sparkpost'
+    ],
+    ...
+],
+```
+And replace the `MAIL_DRIVER` from .env with `MAIL_MAILER`, make sure to keep the sparkpost config on `config/services.php`.

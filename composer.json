@@ -1,6 +1,6 @@
 {
     "name": "melmartinez-dev/laravel-6-sparkpost-relay-driver",
-    "description": "Sparkpost driver for laravel 6 and relay server",
+    "description": "Sparkpost driver for laravel 7 and relay server",
     "keywords": [
         "mail",
         "laravel",
@@ -18,7 +18,7 @@
     "require": {
         "php": "^7.2",
         "guzzlehttp/guzzle": "^6.3",
-        "laravel/framework": "^6.0",
+        "laravel/framework": "^7.0",
         "swiftmailer/swiftmailer": "^6.0"
     },
     "autoload": {
